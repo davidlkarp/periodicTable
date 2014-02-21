@@ -2,51 +2,108 @@
 #bigContainer{
 	width:1000px;
 	height:600px;
-	background-color: gray;
-	text-align: center;
-	margin:0 auto;
+	background-color: gray;	
+	display:inline-block;
+}
+#elementContainer{
 	
+	margin:0 auto;
+	display:inline-block;
+	vertical-align: top;
+	width:925px;
+}
+#topRow{
+	width:1000px;
+	height:50px;
+	background-color: orange;
+	display:inline-block;
+	/*text-align: center;*/
+}
+#leftColumn{
+	height:550px;
+	width:50px;
+	display:inline-block;
+	background-color: black;
+	margin-right:-4px;
+	margin-top: -2px;
 }
 #left{
 	width:100px;
 	height:300px;
-	background-color: blue;
+	background-color: orange;
 	display:inline-block;
 	text-align: center;
-	vertical-align: middle;
-	margin:0 auto;
-	
 }
 #mid{
 	width:500px;
 	height:200px;
-	background-color: red;
+	background-color: orange;
 	display:inline-block;
 	text-align: center;
 	vertical-align: bottom;
+	margin-left: 10px;
 }
 #right{
 	width:300px;
 	height:300px;
-	background-color: yellow;
+	background-color: orange;
 	display:inline-block;
 	text-align: center;
-	vertical-align: middle;
 }
 #bottom{
+	margin-top: 5px;
 	width:700px;
 	height:100px;
-	background-color: green;
+	background-color: orange;
 	display:inline-block;
 	text-align: center;
 	vertical-align: middle;
+	margin-left: 114px;
 }
 .elementBoxes{
-	height:42px;
-	width: 42px;
+	height:44px;
+	width: 44px;
 	display: inline-block;
 	border: 1px solid white;
 	margin:0 auto;
+	margin-top: 3px;
+	
+}
+.elementBoxesT{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid white;
+	vertical-align: middle;
+	text-align: center;
+}
+.elementBoxesT2{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid white;
+	margin:0 auto;
+	vertical-align: middle;
+	margin-left: 12px;
+	text-align: center;
+}
+.elementBoxesT3{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid white;
+	margin:0 auto;
+	vertical-align: middle;
+	margin-left: 8px;
+	text-align: center;
+}
+.elementBoxesl{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid white;
+	margin:0 auto;
+	margin-top: 2px;
 	
 }
 p{
@@ -58,10 +115,24 @@ p{
 .atomicNumber{
 
 }
-.elementName{
+.elementName a{
 font-weight: bold;
 font-size: 13px;
+text-decoration: none;
+color:black;
 }
 .atomicMass{
 
+}
+.blueBack{
+	background-color: blue;
+}
+.redBack{
+	background-color: red;
+}
+.yellowBack{
+	background-color: yellow;
+}
+.greenBack{
+	background-color: green;
 }
