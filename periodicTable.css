@@ -2,7 +2,7 @@
 #bigContainer{
 	width:1000px;
 	height:600px;
-	background-color: gray;	
+	/*background-color: gray;	*/
 	display:inline-block;
 }
 #elementContainer{
@@ -15,29 +15,41 @@
 #topRow{
 	width:1000px;
 	height:50px;
-	background-color: orange;
+	/*background-color: orange;*/
 	display:inline-block;
 	/*text-align: center;*/
+}
+#HHe{
+	width:1000px;
+	height:50px;
+	/*background-color: pink;*/
+	display:inline-block;
+	margin-top:5px;
+	margin-bottom: -4px;
 }
 #leftColumn{
 	height:550px;
 	width:50px;
 	display:inline-block;
-	background-color: black;
+	/*background-color: black;*/
 	margin-right:-4px;
-	margin-top: -2px;
+	margin-top: 10px;
+	text-align: center;
+}
+.marginT{
+	margin-top: 10px;
 }
 #left{
 	width:100px;
 	height:300px;
-	background-color: orange;
+	/*background-color: orange;*/
 	display:inline-block;
 	text-align: center;
 }
 #mid{
 	width:500px;
 	height:200px;
-	background-color: orange;
+	/*background-color: orange;*/
 	display:inline-block;
 	text-align: center;
 	vertical-align: bottom;
@@ -46,7 +58,7 @@
 #right{
 	width:300px;
 	height:300px;
-	background-color: orange;
+	/*background-color: orange;*/
 	display:inline-block;
 	text-align: center;
 }
@@ -54,7 +66,7 @@
 	margin-top: 5px;
 	width:700px;
 	height:100px;
-	background-color: orange;
+	/*background-color: orange;*/
 	display:inline-block;
 	text-align: center;
 	vertical-align: middle;
@@ -64,7 +76,7 @@
 	height:44px;
 	width: 44px;
 	display: inline-block;
-	border: 1px solid white;
+	border: 1px solid black;
 	margin:0 auto;
 	margin-top: 3px;
 	
@@ -97,13 +109,39 @@
 	margin-left: 8px;
 	text-align: center;
 }
+.elementBoxesT4{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid white;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: 2px;
+}
+.elementBoxesT5{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid white;
+	vertical-align: middle;
+	text-align: center;
+	margin-left: -2px;
+}
+.elementBoxesHHe{
+	height:44px;
+	width: 44px;
+	display: inline-block;
+	border: 1px solid black;
+	vertical-align: middle;
+	text-align: center;
+}
 .elementBoxesl{
 	height:44px;
 	width: 44px;
 	display: inline-block;
 	border: 1px solid white;
 	margin:0 auto;
-	margin-top: 2px;
+	margin-top: 0px;
 	
 }
 p{
@@ -125,14 +163,18 @@ color:black;
 
 }
 .blueBack{
-	background-color: blue;
+	/*background-color: blue;*/
+	background-color: rgb(104,155,255)
 }
 .redBack{
-	background-color: red;
+	/*background-color: red;*/
+	background-color: rgb(253,154,152)
 }
 .yellowBack{
-	background-color: yellow;
+	/*background-color: yellow;*/
+	background-color: rgb(254,203,0)
 }
 .greenBack{
-	background-color: green;
+	/*background-color: green;*/
+	background-color: rgb(31,202,33)
 }
